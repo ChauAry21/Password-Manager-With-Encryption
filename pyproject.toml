@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "aryans_password_manager"
+version = "0.0.1"
+authors = [
+  { name="Aryan Chauhan", email="aryanachauhan21@gmail.com" },
+]
+description = "small python based password manager password manager with encryption using cryptography.fernet and gui with tkinter package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3.12.3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/ChauAry21/Password-Manager-With-Encryption"
+Issues = "https://github.com/ChauAry21/Password-Manager-With-Encryption/issues"
